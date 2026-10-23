@@ -1,0 +1,160 @@
+// بيانات الصور: مسارات ملفات مجلد assets
+const IM={
+ "blk": "assets/l_blk.jpg",
+ "lj": "assets/l_lj.jpg",
+ "fw": "assets/l_fw.jpg",
+ "qj": "assets/l_qj.jpg",
+ "ot": "assets/l_ot.jpg",
+ "em": "assets/l_em.jpg",
+ "ku": "assets/l_ku.jpg",
+ "sh": "assets/l_sh.jpg",
+ "ex": "assets/l_ex.jpg",
+ "lq": "assets/l_lq.jpg",
+ "al": "assets/l_al.jpg",
+ "sb": "assets/l_sb.jpg",
+ "eman": "assets/l_eman.jpg",
+ "pc": "assets/l_pc.jpg"
+};
+const G={
+ "emp": [
+  "assets/emp0.jpg",
+  "assets/emp1.jpg",
+  "assets/emp2.jpg",
+  "assets/emp3.jpg",
+  "assets/emp4.jpg",
+  "assets/emp5.jpg",
+  "assets/emp6.jpg",
+  "assets/emp7.jpg",
+  "assets/emp8.jpg"
+ ],
+ "sh": [
+  "assets/sh0.jpg",
+  "assets/sh1.jpg",
+  "assets/sh2.jpg",
+  "assets/sh3.jpg",
+  "assets/sh4.jpg"
+ ],
+ "shm": [
+  "assets/shm0.jpg",
+  "assets/shm1.jpg",
+  "assets/shm2.jpg",
+  "assets/shm3.jpg",
+  "assets/shm4.jpg",
+  "assets/shm5.jpg",
+  "assets/shm6.jpg",
+  "assets/shm7.jpg",
+  "assets/shm8.jpg",
+  "assets/shm9.jpg",
+  "assets/shm10.jpg",
+  "assets/shm11.jpg",
+  "assets/shm12.jpg",
+  "assets/shm13.jpg",
+  "assets/shm14.jpg",
+  "assets/shm15.jpg",
+  "assets/shm16.jpg",
+  "assets/shm17.jpg"
+ ],
+ "al": [
+  "assets/al0.jpg",
+  "assets/al1.jpg",
+  "assets/al2.jpg",
+  "assets/al3.jpg",
+  "assets/al4.jpg",
+  "assets/al5.jpg"
+ ],
+ "lq": [
+  "assets/lq0.jpg",
+  "assets/lq1.jpg",
+  "assets/lq2.jpg",
+  "assets/lq3.jpg",
+  "assets/lq4.jpg",
+  "assets/lq5.jpg",
+  "assets/lq6.jpg",
+  "assets/lq7.jpg",
+  "assets/lq8.jpg",
+  "assets/lq9.jpg"
+ ],
+ "lj": [
+  "assets/lj0.jpg",
+  "assets/lj1.jpg",
+  "assets/lj2.jpg",
+  "assets/lj3.jpg",
+  "assets/lj4.jpg",
+  "assets/lj5.jpg",
+  "assets/lj6.jpg",
+  "assets/lj7.jpg"
+ ],
+ "fw": [
+  "assets/fw1.jpg",
+  "assets/fw5.jpg",
+  "assets/fw6.jpg",
+  "assets/fw8.jpg",
+  "assets/fw11.jpg",
+  "assets/fw12.jpg",
+  "assets/fw14.jpg",
+  "assets/fw15.jpg",
+  "assets/fw16.jpg",
+  "assets/fw17.jpg",
+  "assets/fw18.jpg",
+  "assets/fw19.jpg"
+ ],
+ "lid": [
+  "assets/lid1.jpg",
+  "assets/lid4.jpg",
+  "assets/lid12.jpg",
+  "assets/lid13.jpg",
+  "assets/lid14.jpg",
+  "assets/lid19.jpg",
+  "assets/lid20.jpg",
+  "assets/lid21.jpg",
+  "assets/lid24.jpg",
+  "assets/lid27.jpg",
+  "assets/lid28.jpg",
+  "assets/lid29.jpg",
+  "assets/lid35.jpg"
+ ],
+ "ep": [
+  "assets/ep8.jpg",
+  "assets/ep9.jpg",
+  "assets/ep10.jpg",
+  "assets/ep11.jpg",
+  "assets/ep12.jpg",
+  "assets/ep13.jpg",
+  "assets/ep14.jpg",
+  "assets/ep16.jpg",
+  "assets/ep17.jpg",
+  "assets/ep18.jpg",
+  "assets/ep19.jpg",
+  "assets/ep20.jpg"
+ ],
+ "shp": [
+  "assets/shp1.jpg"
+ ],
+ "pid": [
+  "assets/m6.jpg",
+  "assets/m10.jpg",
+  "assets/m11.jpg",
+  "assets/m12.jpg",
+  "assets/m13.jpg",
+  "assets/m14.jpg",
+  "assets/m15.jpg",
+  "assets/m16.jpg",
+  "assets/m17.jpg",
+  "assets/m18.jpg",
+  "assets/m19.jpg"
+ ],
+ "pw": [
+  "assets/w7.jpg",
+  "assets/w8.jpg",
+  "assets/w9.jpg",
+  "assets/w10.jpg",
+  "assets/w11.jpg",
+  "assets/w12.jpg",
+  "assets/w13.jpg",
+  "assets/w15.jpg",
+  "assets/w16.jpg",
+  "assets/w17.jpg",
+  "assets/w18.jpg",
+  "assets/w19.jpg"
+ ]
+};
