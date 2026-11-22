@@ -3,63 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pegasus Marketing Agency | بيجاسوس للتسويق</title>
+<title>Pegasus Marketing Company | بيجاسوس للتسويق</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600;800&family=Montserrat:ital,wght@0,600;0,800;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600;800&family=Montserrat:ital,wght@0,600;0,800;1,800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="icon" type="image/png" href="assets/logo.png"><link rel="stylesheet" href="css/style.css">
+<script>if(!(location.hash||/portfolio/.test(document.referrer)||matchMedia("(prefers-reduced-motion:reduce)").matches))document.documentElement.classList.add("intro-on")</script>
 </head>
 <body>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div id="intro" aria-hidden="true"><div class="i-grid"></div><div class="i-glow"></div><div class="i-ring"></div><p class="i-tag">نرفع علامتك لين تلامس السماء</p></div>
+<div id="introLogo" aria-hidden="true"><img src="assets/logo-full.png" alt=""><div class="shine"></div></div>
+<button class="i-skip" id="introSkip" type="button">تخطي</button>
 <div class="prog" id="prog"></div><div class="fx" id="fx"></div>
 <header>
-<a href="#top"><img src="assets/logo.png" alt="Pegasus Marketing Agency"></a>
-<nav id="nav"><a href="#about">من نحن</a><a href="#services">خدماتنا</a><a href="#clients">عملاؤنا</a><a href="#works">أعمالنا</a><a href="#identity">هوياتنا</a><a href="#sites">مواقعنا</a><a href="#pricing">الباقات</a><a href="#faq">أسئلة</a></nav>
+<a href="#top"><img class="fulllogo" src="assets/logo-full.png" alt="Pegasus Marketing"></a>
+<nav id="nav"><a href="#about">من نحن</a><a href="#why">ليش بيجاسوس؟</a><a href="#services">خدماتنا</a><a href="#clients">عملاؤنا</a><a href="portfolio.html">التصاميم والهويات</a><a href="#sites">مواقعنا</a><a href="#pricing">الباقات</a><a href="#faq">أسئلة</a><a href="#contact-form">اطلب خدمتك</a></nav>
 <a class="btn wal" data-m="هلا والله، أبغى أتواصل معكم بخصوص خدماتكم" href="#">تواصل معنا</a>
 <button id="menu" aria-label="القائمة">☰</button>
 </header>
 
-<section class="hero star" id="top"><div class="lat star"></div><div class="glow"></div>
-<div><img class="lg" src="assets/logo.png" alt="Pegasus">
-<h1 class="sp"><span class="a">نرفع علامتك</span> <span>لين تلامس السما</span></h1>
-<p>وكالة تسويق خليجية متكاملة، نبني الهويات ونصمم المحتوى ونطلق المواقع والحملات. شغلنا سريع ودقيق وتشوف نتيجته، من الرياض إلى الكويت.</p>
-<div class="row"><a class="btn wal" data-m="هلا والله، أبغى أبدأ مشروع مع Pegasus Marketing Agency" href="#">ابدأ مشروعك</a><a class="btn ghost" href="#works">شوف أعمالنا</a></div></div>
-<div class="mas"><div class="orb" style="width:80%;aspect-ratio:1"></div><div class="orb" style="width:60%;aspect-ratio:1;animation-direction:reverse"></div><img data-p=".08" src="assets/mascot.jpg" alt="شخصية بيجاسوس"></div></section>
+<section class="hero star" id="top"><div class="lat star"></div><div class="glow"></div><canvas id="stars" aria-hidden="true"></canvas>
+<div><span class="eyebrow">شركة تسويق رقمي · مصر والخليج</span>
+<h1 class="sp"><span class="a">نرفع علامتك</span> <span>لين تلامس السماء</span></h1>
+<p>من خمس سنوات وإحنا نساعد العلامات تكبر بخطة واضحة وشغل يشرّف. نبني هويات، ونصنع محتوى، ونصمم مواقع وحملات تربطك بجمهورك في الخليج ومصر. نبدأ بفهم هدفك، ونكمل معك لين تشوف حضورك يتطور.</p>
+<div class="row"><a class="btn wal" data-m="هلا والله، أبغى أبدأ مشروع مع Pegasus Marketing Company" href="#">ابدأ مشروعك</a><a class="btn ghost" href="portfolio.html#designs">للاطلاع على أعمالنا في التصاميم</a></div></div>
+<div class="mas"><div class="orb" style="width:80%;aspect-ratio:1"></div><div class="orb" style="width:60%;aspect-ratio:1;animation-direction:reverse"></div><img class="hero-mascot" fetchpriority="high" data-p=".08" src="assets/logo.png" alt="Pegasus" decoding="async"></div></section>
 
-<div class="mq"><div id="mq"></div></div>
+<section class="topshow" id="topshow" aria-label="من أعمالنا"><div class="topshow-head"><span class="eyebrow">من شغلنا</span><a class="btn ghost" href="portfolio.html#designs">اطلع على تصاميمنا</a></div><div class="showcase" id="showcase" aria-hidden="true"></div></section>
+<section class="explain" id="explain" aria-label="كيف نشتغل وليش نفرق"><div class="explain-head"><span class="eyebrow">شوف الصورة كاملة</span><h2 class="rv"><span>اللي يهمك تعرفه عن التسويق، في كم تصميم</span></h2><p class="sub rv">جمعنا لك أهم الأسباب اللي تخلي الإعلان يبيع، والأخطاء اللي تضيّع ميزانيتك، وكيف نبني لك خطة تمشي صح. مرّر الماوس لإيقاف الحركة، واضغط على أي تصميم لتكبيره.</p></div><div class="pstrip"><div id="pstrip"></div></div></section>
 
 <section id="about"><div class="ab"><div class="rv r"><h2><span>من نحن</span></h2>
-<p>بيجاسوس وكالة تسويق رقمي متكاملة، وخبرتنا تزيد على 4 سنوات بين مصر والخليج. تخصصنا نقدم حلول تسويقية سريعة وقابلة للقياس، ومبنية على استراتيجية تناسب كل عميل.</p>
-<p>عندنا فريق من المبدعين والمخططين وخبراء الإعلانات، ونغطي كل شي من إدارة السوشال ميديا وصناعة المحتوى إلى الحملات المدفوعة والهوية البصرية وخطط النمو الرقمي.</p>
+<p>بيجاسوس شركة تسويق رقمي متكاملة، وخبرتنا خمس سنوات بين مصر والخليج. خلال هالسنين اشتغلنا على مشاريع متنوعة، وتعلمنا إن لكل علامة حكايتها وجمهورها وطريقتها في النمو. عشان كذا نبدأ معك من فهم نشاطك واحتياجك قبل ما نختار الحل.</p>
+<p>فريقنا يجمع الإبداع والتخطيط والتنفيذ: من إدارة حسابات التواصل وصناعة المحتوى، إلى الإعلانات المدفوعة، والهويات البصرية، والمواقع والمتاجر الإلكترونية. كل خدمة نربطها بهدف واضح، سواء تبي تعرّف الناس بعلامتك، تزيد التفاعل، أو تسهّل على العميل يوصل لمنتجك.</p>
+<p>نراعي تجربة العميل من أول نظرة، ونرتب التفاصيل عشان تكون رسالتك واضحة على الجوال والمنصات المختلفة. نتابع الأداء بالأرقام، ونشاركك وش اللي يشتغل وش اللي يحتاج تطوير، ونبقى معك بعد الإطلاق بخطوات تحسين عملية.</p>
+<p>نتعامل مع كل مشروع بعقلية الشريك: تواصل واضح، مواعيد متفق عليها، ومراجعات تخليك مطّلع على الشغل أول بأول. هدفنا إنك تستلم شغل مرتب وتعرف كيف يخدم خطتك، وتكون عندك قاعدة أقوى للمرحلة اللي بعدها.</p>
 <p>التزامنا بالسرعة والدقة والنتائج الحقيقية هو اللي يميزنا. سواء علامتك ناشئة أو راسخة في السوق، بيجاسوس يساعدك تكبر بذكاء، وتوصل أبعد، وتحقق أكثر.</p>
 <div class="vals"><div><b>السرعة</b><span>تسليم في وقته وبدون تأخير</span></div><div><b>الدقة</b><span>كل تفصيلة محسوبة</span></div><div><b>النتائج</b><span>أرقام تشوفها بعينك</span></div></div></div>
-<div class="vis rv l"><div class="orb" style="width:90%;aspect-ratio:1"></div><img data-p="-.05" src="assets/mascot.jpg" alt=""></div></div>
+<div class="vis rv l"><div class="orb" style="width:90%;aspect-ratio:1"></div><img class="mascot-cutout pmark" data-p="-.05" src="assets/logo.png" alt="Pegasus" decoding="async"></div></div>
 <div class="mv"><div class="rv"><h3>رسالتنا</h3><p>نمكّن الأعمال بكل أحجامها تنمو وتزدهر في العالم الرقمي، بحلول تسويقية سريعة وإبداعية وموجهة للنتائج. نحوّل أهدافك إلى أرقام تنقاس، بتفكير استراتيجي وتنفيذ متقن وتركيز ما يفتر على الأداء.</p></div>
 <div class="rv"><h3>رؤيتنا</h3><p>نطمح نكون قوة رائدة في التسويق الرقمي على مستوى الشرق الأوسط وشمال أفريقيا، معروفين بنتائج مؤثرة وإبداع استراتيجي وقيمة طويلة المدى لعملائنا. ونرسم مستقبل النمو الرقمي بمعايير جديدة في الأداء والسرعة والابتكار.</p></div></div></section>
 
 <div class="big"><div><span>PEGASUS</span><span>BRANDS THAT FLY</span><span>PEGASUS</span><span>BRANDS THAT FLY</span><span>PEGASUS</span><span>BRANDS THAT FLY</span></div></div>
 
-<section id="services" class="star"><h2><span>وش نسوي لك؟</span></h2><p class="sub rv">عشر خدمات تغطي كل اللي تحتاجه علامتك. اختر خدمة وشوف التفاصيل.</p>
+<section id="why" class="star"><h2><span>وش يميّز شغلنا؟</span></h2><p class="sub rv">نهتم بالتفاصيل اللي تصنع فرق حقيقي في تجربة عميلك، ونخلي كل خطوة مفهومة من البداية.</p><div class="why-grid"><article class="rv"><b>01 · نفهم السوق</b><h3>حلول على مقاسك</h3><p>نسمع منك ونتعرف على نشاطك وجمهورك ومنافسيك، وبعدها نرتب خدمات تناسب أولوياتك وميزانيتك. ما نمشي على قالب واحد لكل المشاريع.</p></article><article class="rv"><b>02 · نبدأ من المستخدم</b><h3>تجربة سهلة وواضحة</h3><p>نصمم المحتوى والمواقع عشان تكون مريحة على الجوال، سريعة الوصول، وتجاوب عن أسئلة العميل بدون لف ودوران.</p></article><article class="rv"><b>03 · نتابع بالأرقام</b><h3>تطوير مستمر</h3><p>نراجع التفاعل والزيارات والطلبات، ونشاركك قراءة واضحة للأداء واقتراحات عملية للتحسين والنمو.</p></article><article class="rv"><b>04 · نكمل معك</b><h3>دعم بعد الإطلاق</h3><p>إطلاق الحملة أو الموقع بداية المشوار. نتابع معك الملاحظات والتحديثات ونساعدك تخلي حضورك الرقمي مواكب لطموحك.</p></article></div></section>
+
+<section id="services" class="star"><h2><span>وش نسوي لك؟</span></h2><p class="sub rv">من أول خطوة في بناء العلامة إلى حملات النمو والتطوير، نجمع لك الخدمات اللي تحتاجها تحت سقف واحد. اختر خدمة وشوف كيف نقدر نساعدك.</p>
 <div class="sv"><div class="sl rv r" id="sl"></div><div class="sd rv l" id="sd"></div></div></section>
+
+<section class="sectors"><h2><span>كل مجال له جمهوره وطريقته</span></h2><p class="sub rv">اللي يناسب متجر إلكتروني يمكن ما يناسب شركة خدمات أو جهة تعليمية. نرتب الرسالة والتصميم والقنوات حسب طبيعة المجال والناس اللي تبي توصل لهم.</p><div class="why-grid"><article class="rv"><b>للتجارة والمنتجات</b><h3>نخلي الاختيار أسهل</h3><p>نرتب عرض المنتجات والمحتوى والعروض بطريقة توضّح القيمة وتختصر على العميل طريقه من الاكتشاف إلى الطلب.</p></article><article class="rv"><b>للخدمات واللوجستيات</b><h3>نبرز الاعتمادية</h3><p>نوضح كيف تخدم علامتك العميل، ونقدم التفاصيل والخطوات بلغة بسيطة تعزز الثقة وتسهّل طلب الخدمة.</p></article><article class="rv"><b>للسياحة والتعليم</b><h3>نقرب التجربة للناس</h3><p>نستخدم محتوى بصري ورسائل واضحة تساعد الجمهور يتخيل التجربة، ويفهم الخيارات، ويعرف كيف يبدأ.</p></article></div></section>
 
 <section id="process"><h2><span>كيف نشتغل معك؟</span></h2><p class="sub rv">أربع خطوات واضحة من أول رسالة لين تشوف النتيجة.</p>
 <div class="tl" id="tl">
-<div class="rv" data-n="1"><h3>نسمعك أول</h3><p>نجلس معك على واتساب أو مكالمة، نفهم نشاطك وجمهورك وأهدافك وش تبغى توصل له بالضبط.</p></div>
-<div class="rv" data-n="2"><h3>نرسم الخطة</h3><p>نحدد الاستراتيجية والقنوات والهوية والرسالة اللي تناسب سوقك، ونتفق على الباقة والجدول.</p></div>
-<div class="rv" data-n="3"><h3>ننفّذ بإتقان</h3><p>فريقنا يصمم ويكتب ويصوّر ويبرمج ويطلق الحملات، وأنت تشوف الشغل وتعدّل عليه أول بأول.</p></div>
-<div class="rv" data-n="4"><h3>نقيس ونطوّر</h3><p>نتابع الأرقام ونحلل الأداء ونحسّن، لأن النجاح عندنا ما يوقف عند الإطلاق.</p></div></div></section>
+<div class="rv" data-n="1"><h3>نسمعك أول</h3><p>نجلس معك على واتساب أو مكالمة، نفهم نشاطك وجمهورك وأهدافك والتحديات اللي تواجهك. نراجع حضورك الحالي ونسمع فكرتك لين تتضح لنا الصورة كاملة.</p></div>
+<div class="rv" data-n="2"><h3>نرسم الخطة</h3><p>نحدد الأولويات والقنوات والرسالة اللي تناسب سوقك، ونقترح الخدمات والجدول والميزانية. كل خطوة تكون واضحة ومتفق عليها قبل التنفيذ.</p></div>
+<div class="rv" data-n="3"><h3>ننفّذ بإتقان</h3><p>فريقنا يصمم ويكتب ويبرمج ويطلق الحملات حسب الخطة. تشوف الشغل وتشاركنا ملاحظاتك أول بأول، عشان تطلع النتيجة متوافقة مع رؤيتك.</p></div>
+<div class="rv" data-n="4"><h3>نقيس ونطوّر</h3><p>نتابع الزيارات والتفاعل والنتائج، ونوضح لك وش تحقق وش الخطوة الجاية. بعدها نحسّن المحتوى والحملات باستمرار، لأن النمو يبغاله متابعة.</p></div></div></section>
 
 <div class="big rev"><div><span>OUR CLIENTS</span><span>نفخر بهم</span><span>OUR CLIENTS</span><span>نفخر بهم</span><span>OUR CLIENTS</span><span>نفخر بهم</span></div></div>
 
-<section id="clients" class="star"><h2><span>عملاؤنا اللي وثقوا فينا</span></h2><p class="sub rv">اضغط على أي كرت وتعرّف على قصتنا معهم.</p>
-<div class="tabs rv"><button class="on" data-f="all">الكل</button><button data-f="sa">السعودية</button><button data-f="kw">الكويت</button></div>
+<section id="clients" class="star"><h2><span>عملاؤنا اللي وثقوا فينا</span></h2><p class="sub rv">شراكات نعتز فيها، وعلامات اشتغلنا معها على حضور يليق بطموحها. اضغط على أي كرت وتعرّف على قصتنا معهم.</p>
+<div class="mq"><div id="mq"></div></div>
+<div class="tabs rv"><button class="on" data-f="all">الكل</button><button data-f="sa">السعودية</button><button data-f="kw">الكويت</button><button data-f="gulf">الخليج</button></div>
 <div class="grid" id="grid"></div></section>
 
-<section id="works"><h2><span>أعمالنا</span></h2><p class="sub rv">تصاميم سوشال ميديا وإعلانات وهويات اشتغلنا عليها لعملائنا. اختر العميل واضغط على أي صورة للتكبير.</p>
-<div class="tabs rv" id="t2"></div><div class="mas2" id="g2"></div></section>
+<section class="markets" aria-label="أسواقنا"><h2><span>حاضرين معكم في الخليج ومصر</span></h2><p class="sub rv">نفهم اختلاف الأسواق، ونصمم تواصل علامتك بما يناسب جمهورها في كل مكان.</p><div class="market-list"><div><span>🇸🇦</span><b>السعودية</b></div><div><span>🇦🇪</span><b>الإمارات · دبي</b></div><div><span>🇶🇦</span><b>قطر</b></div><div><span>🇴🇲</span><b>عُمان</b></div><div><span>🇧🇭</span><b>البحرين</b></div><div><span>🇰🇼</span><b>الكويت</b></div><div><span>🇪🇬</span><b>مصر</b></div></div></section>
 
-<section id="identity" class="star"><h2><span>هويات بصرية تبقى في البال</span></h2><p class="sub rv">من الشعار والألوان إلى الزي والسيارات والمطبوعات، هويات كاملة نطبّقها على كل نقطة تماس مع جمهورك.</p>
-<div class="tabs rv" id="t1"></div><div class="mas2" id="g1"></div></section>
+<section id="portfolio" class="portfolio-teaser star"><h2><span>تصاميمنا وهوياتنا</span></h2><p class="sub rv">لكل علامة بصمتها، وعشان كذا جمعنا نماذج التصاميم والهويات في صفحة مستقلة. اختر الشركة اللي تبي تشوف شغلها، وتصفّح الصور والتفاصيل براحتك.</p><div class="portfolio-links"><article class="rv"><span>01</span><h3>التصاميم التسويقية</h3><p>منشورات وحملات ومحتوى بصري صممناه لقطاعات وعلامات متنوعة. اختر اسم الشركة وشوف الأعمال المرتبطة فيها.</p><a class="btn ghost" href="portfolio.html#designs">للاطلاع على أعمالنا في التصاميم</a></article><article class="rv"><span>02</span><h3>الهويات البصرية</h3><p>شعارات وألوان وتطبيقات متكاملة توحّد شكل العلامة، من حضورها الرقمي إلى المطبوعات والتغليف.</p><a class="btn" href="portfolio.html#identities">اطلع على هويتنا</a></article></div></section>
 
-<section id="sites"><h2><span>مواقع صممناها وبرمجناها</span></h2><p class="sub rv">زر المواقع وشوف الشغل على الواقع.</p>
+<section id="sites"><h2><span>مواقع صممناها وبرمجناها</span></h2><p class="sub rv">هذي نماذج من مواقع اشتغلنا عليها من الألف إلى الياء، تصميم وبرمجة. اضغط على أي موقع وزره مباشرة وشوف التجربة بنفسك.</p>
+<div class="siteshow" id="siteshow" aria-label="لقطات من مواقعنا"><div class="sw-track" id="swtrack"></div></div>
 <div class="sites rv" id="st"></div></section>
 
 <section id="pricing" class="star"><h2><span>باقاتنا</span></h2><p class="sub rv">اختر الباقة اللي تناسبك، وإذا مشروعك له طابع خاص نفصّل لك باقة على مقاسك.</p>
@@ -71,18 +83,34 @@
 <details><summary>تقدرون تفصلون لي باقة خاصة؟</summary><p>أكيد. الباقة الرابعة مخصصة بالكامل، نحدد معك الخدمات والميزانية ونتفق على التفاصيل.</p></details>
 <details><summary>وش لازم أجهّز قبل ما نبدأ؟</summary><p>أي شي عندك عن علامتك: شعار، ألوان، منتجات، أو حتى فكرة بس. والباقي علينا.</p></details>
 <details><summary>تشتغلون مع عملاء خارج السعودية؟</summary><p>نعم، عملاؤنا في السعودية والكويت، وخبرتنا تمتد بين مصر والخليج.</p></details>
-<details><summary>تسوون المواقع والتطبيقات كمان؟</summary><p>إي نعم، عندنا مواقع أطلقناها لعملاء، وبرنامج مخصص لشركة الإيمان للسياحة. تقدر تتصفحها في قسم المواقع.</p></details></div></section>
+<details><summary>تسوون المواقع والتطبيقات كمان؟</summary><p>إي نعم، نصمم ونطور مواقع تعريفية ومتاجر إلكترونية، ونراعي تجربة التصفح من الجوال وسهولة وصول العميل للمعلومة. وعندنا مواقع أطلقناها لعملاء وبرنامج مخصص لشركة الإيمان للسياحة، تقدر تتصفح الروابط في قسم المواقع.</p></details>
+<details><summary>كيف أعرف الخدمة أو الباقة المناسبة لي؟</summary><p>كلمني عن نشاطك وهدفك والميزانية المتاحة، ونراجع احتياجك معك ونقترح بداية عملية. وإذا عندك أكثر من أولوية نرتبها لك على مراحل واضحة.</p></details>
+<details><summary>هل تتابعون العمل بعد التسليم؟</summary><p>أكيد، نراجع النتائج ونساعدك في التحديثات والتحسينات حسب الاتفاق. هدفنا يكون عندك تصور واضح عن أداء شغلك والخطوة التالية.</p></details>
+<details><summary>هل تكتبون المحتوى باللهجة المناسبة لجمهوري؟</summary><p>نعم، نضبط نبرة المحتوى حسب جمهورك وسوقك والمنصة، ونحافظ على شخصية العلامة ورسالتها في كل منشور وحملة.</p></details></div></section>
 
-<section class="cta"><img src="assets/mascot.jpg" alt=""><h2><span>جاهز تطير بعلامتك؟</span></h2><p class="sub rv" style="margin-inline:auto">راسلنا على واتساب ونرد عليك بأسرع وقت، حياك الله.</p>
+<section class="cta"><img class="mascot-cutout pmark" src="assets/logo.png" alt="Pegasus" decoding="async"><h2><span>جاهز تطير بعلامتك؟</span></h2><p class="sub rv" style="margin-inline:auto">راسلنا على واتساب ونرد عليك بأسرع وقت، حياك الله.</p>
 <a class="btn wal rv" data-m="هلا والله، أبغى أستشيركم في مشروعي" href="#">كلمنا على واتساب</a></section>
 
-<footer><img src="assets/logo.png" alt="Pegasus"><span>Pegasus Marketing Agency · Building Brands That Grow</span><a href="https://wa.me/966509877538" dir="ltr">+966 50 987 7538</a></footer>
+<section id="contact-form" class="contact-section star"><h2><span>خلّنا نعرف وش تحتاج</span></h2><p class="sub rv">عبّ البيانات واختر الخدمة المناسبة، ونجهز لك رسالة واضحة تقدر ترسلها لنا مباشرة على واتساب. وإذا عندك طلب مختلف، اختر «خدمات أخرى» واكتب لنا التفاصيل.</p>
+<form id="whatsapp-form" class="contact-form rv">
+<label>الاسم<input name="name" autocomplete="name" required placeholder="اكتب الاسم"></label>
+<label>اسم الشركة أو المشروع<input name="company" autocomplete="organization" placeholder="اختياري"></label>
+<label>رقم واتساب للتواصل<input name="phone" type="tel" autocomplete="tel" placeholder="مع مفتاح الدولة" required></label>
+<label>الخدمة اللي تحتاجها<select name="service" id="requested-service" required><option value="" selected disabled>اختر الخدمة</option><option>صناعة المحتوى</option><option>التجارة الإلكترونية</option><option>الإنتاج الإعلامي</option><option>إدارة السوشال ميديا</option><option>تحسين محركات البحث SEO</option><option>الهوية البصرية</option><option>التصميم الجرافيكي</option><option>الإعلانات الممولة</option><option>المونتاج</option><option>الموشن جرافيك</option><option>تصميم وتطوير المواقع</option><option>الاستراتيجية والتحليل</option><option value="other">خدمات أخرى</option></select></label>
+<label id="other-service-wrap" class="other-service" hidden>وضح الخدمة اللي في بالك<textarea name="other_service" id="other-service" rows="3" placeholder="اكتب الخدمة أو الفكرة اللي تبي تناقشنا فيها"></textarea></label>
+<label class="form-wide">تفاصيل تساعدنا نفهم طلبك<textarea name="details" rows="4" placeholder="عرّفنا بنشاطك، هدفك، أو أي تفاصيل تحب نعرفها قبل ما نكلمك"></textarea></label>
+<button class="btn form-wide" type="submit">أرسل طلبك على واتساب <span aria-hidden="true">↗</span></button>
+<p id="form-status" class="form-status form-wide" aria-live="polite"></p>
+</form></section>
+
+<footer><img class="fulllogo" src="assets/logo-full.png" alt="Pegasus"><span>Pegasus Marketing Company · Building Brands That Grow</span><a href="https://wa.me/966509877538" dir="ltr">+966 50 987 7538</a></footer>
 <a class="wa wal" data-m="هلا والله، عندي استفسار" href="#" aria-label="واتساب"><svg width="32" height="32" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.4-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.100 1.200 1 2.100 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l1.900.9c.3.1.5.2.5.3.1.2.1.8-.1 1.400z"/></svg></a>
 
+<dialog id="plb"><div class="box lightbox-box"><button class="nv" id="pprev" aria-label="التصميم السابق" type="button">›</button><img id="plb-img" alt=""><button class="nv" id="pnext" aria-label="التصميم التالي" type="button">‹</button><div class="acts"><button class="btn ghost" id="pclose" type="button">إغلاق</button></div></div></dialog>
 <dialog id="dm"><div class="box" id="bx"></div></dialog>
-<dialog id="lb"><div class="box"><img id="li" alt=""><button class="nv" id="pv" aria-label="السابق">›</button><button class="nv" id="nx" aria-label="التالي">‹</button><div class="acts" style="display:flex;justify-content:center;padding:10px"><button class="btn ghost" onclick="lb.close()">إغلاق</button></div></div></dialog>
-
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/extra.js"></script>
+<script src="js/intro.js"></script>
 </body>
 </html>
